@@ -37,7 +37,7 @@
         {
           "Id": "707bef35-0c1b-4e0a-b60f-5c059f0d6a57",
           "Name": "PnP Remote Provisioning",
-          "Image": "images/categories/first_days.png",
+          "Image": "images/categories/remote.png",
           "TechnologyId": "c946268b-7fa1-4778-8e85-2b65b5186947",
           "SubjectId": "988803d4-3979-41e8-ba3f-1242324b0688",
           "Source": "JulieTurner",
