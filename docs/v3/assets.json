@@ -64,5 +64,16 @@
     "Source": "JulieTurner",
     "StatusTagId": "",
     "StatusNote": ""
+  },
+  {
+    "Id": "8dcba564-d82a-4220-b5ad-f2f55f67fa29",
+    "Title": "PnP Powershell Overview",
+    "Description": "",
+    "Url": "https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?context=context%2Fchromeless&linktarget=true",
+    "TechnologyId": "c946268b-7fa1-4778-8e85-2b65b5186947",
+    "SubjectId": "988803d4-3979-41e8-ba3f-1242324b0688",
+    "Source": "JulieTurner",
+    "StatusTagId": "",
+    "StatusNote": ""
   }
 ]
