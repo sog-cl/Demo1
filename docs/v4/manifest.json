@@ -1,0 +1,17 @@
+{
+  "Telemetry": {},
+  "Version": {
+    "Manifest": "v4",
+    "ManifestMinWebPart": "4.0.0",
+    "CurrentWebPart": "4.0.0",
+    "RepoURL": "https://github.com/juliemturner/LPCDNDemo"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ],
+  "Languages": [
+    "en-US"
+  ]
+}
