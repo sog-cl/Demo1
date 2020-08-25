@@ -1,0 +1,865 @@
+var clModel={
+  "Global": {
+    "mlText": {
+      "Videos": "Videos",
+      "Downloads": "Downloads",
+      "Assist": "Assist",
+      "DOCX": "Word",
+      "PDF": "PDF",
+      "PPTX": "PowerPoint",
+      "JSV": "Show Me",
+      "JSV2": "Try Me",
+      "JSV3": "Test Me",
+      "SWF": "Media Player",
+      "XAP": "SilverLight",
+      "TOC": "Table of Content",
+      "cldocid": "ID",
+      "clauthor": "Author",
+      "clrevision": "Revision",
+      "Feedback": "Feedback",
+      "FeedbackRating": "Your rating",
+      "FeedbackComment": "Your comment",
+      "FeedbackSubmit": "Submit",
+      "FeedbackR1": "Bad",
+      "FeedbackR2": "Poor",
+      "FeedbackR3": "Average",
+      "FeedbackR4": "Good",
+      "FeedbackR5": "Great",
+      "WMV": "Window Video",
+      "REF": "References",
+      "Search": "Search...",
+      "DownloadPDF": "Download full portal",
+      "Description": "Description",
+      "FeedbackTitle": "Something’s missing?",
+      "FeedbackQuestion": "Can’t find what you are looking for in the documentation?",
+      "FeedbackAction": "Click to contact us!",
+      "Sitemap": "Content",
+      "GCassistChrome": "Google Chrome browser required",
+      "GCassistChromeMessage": "To use the ClickLearn Assist for web applications you are required to use the Google Chrome browser.",
+      "GCassistExtension": "ClickLearn Chrome Assist Extension required",
+      "GCassistExtensionMessage": "To use the ClickLearn Assist for web applications you are required to install the ClickLearn Chrome Assist Extension. Click the button below to install now.",
+      "GCassistExtensionBtn": "Install extension",
+      "GCassistMsgInstallOk": "Extension installed",
+      "GCassistMsgInstallOkMessage": "Please refresh the page by pressing F5 and then click the Assist link again.",
+      "GCassistMsgInstallError": "Extension failed to install",
+      "GCassistMsgInstallErrorMessage": "Failed to install the extension. Error message was: $1",
+      "GCassistMsgInstallException": "Extension failed to install",
+      "GCassistMsgInstallExceptionMessage": "Failed to install the extension. Exception was: $1",
+      "GCassistMsgLoadJSException": "Failed to load assist script",
+      "GCassistMsgLoadJSExceptionMessage": "Failed to load the assist script. Exception was: $1"
+    },
+    "AppExePath": "C:\\Users\\sog\\AppData\\Local\\Apps\\2.0\\WA1GTHTV.P80\\QE6Q0J95.Z0Z\\clst..tion_e037103e685ec573_000c.0000_f041fdfa85d08656"
+  },
+  "Id": "8665b41b-e06e-40c0-8fef-a1a21e526509",
+  "Dir": "..",
+  "Name": "test",
+  "SourceFileName": "test.clrx",
+  "OutputFileWithoutExtension": "test",
+  "FileType": 1,
+  "TypeStr": "recording",
+  "Title": "test",
+  "LogoFileName": "test-logo.png",
+  "TrackingId": null,
+  "PDFFileName": "test.pdf",
+  "FeedbackEmail": null,
+  "tColor": "77, 152, 206",
+  "tColorLightLight": "130, 182, 220",
+  "tColorLight": "85, 157, 208",
+  "tColorDark": "73, 144, 195",
+  "tColorDarkDark": "53, 106, 144",
+  "doPreview": 2,
+  "doFeedbackSection": false,
+  "Steps": [
+    {
+      "Id": "eae8464e-d744-4497-a628-66cf502ddab4",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-eae8464e-d744-4497-a628-66cf502ddab4",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/Inbox - sog@clicklearn.com - Outlook/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/*pa/rA/Home/New/New Email/New Email",
+        "2": "New Email",
+        "3": "",
+        "v": "New Item (Ctrl+N)",
+        "s": "",
+        "Source": "<Step x=\"57\" y=\"105\" exe=\"OUTLOOK.EXE\" wh=\"132724\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"eae8464e-d744-4497-a628-66cf502ddab4\" ms=\"429566046\"><Arg1>/Desktop 1/rA/Inbox - sog@clicklearn.com - Outlook/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/*pa/rA/Home/New/New Email/New Email</Arg1><Arg2>SplitButton/split button</Arg2><Arg3>New Email</Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/16/9/A/9/A/9/26/10/A/26/16/14/3E,132,85,5,81,136,132</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_SplitButton/split button</Par1><Par2>/Desktop 1/rA/Inbox - sog@clicklearn.com - Outlook/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/*pa/rA/Home/New/New Email/New Email</Par2><Par3><lt><l lcid=\"1033\">New Email</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\">New Item (Ctrl+N)</l></lt></Parv><Pars><lt><l lcid=\"1033\"></l></lt></Pars><X><lt><l lcid=\"1033\">5</l></lt></X><Y><lt><l lcid=\"1033\">81</l></lt></Y><W><lt><l lcid=\"1033\">131</l></lt></W><H><lt><l lcid=\"1033\">51</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"29\" w=\"1920\" h=\"1001\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">179488</l></lt></Offset><Offset2><lt><l lcid=\"1033\">179488</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "5, 81, 131, 51",
+      "Offset": 179488,
+      "TemplatedText": "Click on the split button <b>New Email</b>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the split button "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "New Email"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "baebdc34-b4ae-4910-a523-6745610dcf67",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-baebdc34-b4ae-4910-a523-6745610dcf67",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/Inbox - sog@clicklearn.com - Outlook/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/*pa/rA/Home/New/New Email/New Email",
+        "2": "New Email",
+        "3": "",
+        "v": "New Item (Ctrl+N)",
+        "s": "",
+        "Source": "<Step x=\"52\" y=\"105\" exe=\"OUTLOOK.EXE\" wh=\"132724\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"baebdc34-b4ae-4910-a523-6745610dcf67\" ms=\"429576562\"><Arg1>/Desktop 1/rA/Inbox - sog@clicklearn.com - Outlook/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/*pa/rA/Home/New/New Email/New Email</Arg1><Arg2>SplitButton/split button</Arg2><Arg3>New Email</Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/16/9/A/9/A/9/26/10/A/26/16/14/3E,132,85,5,81,136,132</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_SplitButton/split button</Par1><Par2>/Desktop 1/rA/Inbox - sog@clicklearn.com - Outlook/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/*pa/rA/Home/New/New Email/New Email</Par2><Par3><lt><l lcid=\"1033\">New Email</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\">New Item (Ctrl+N)</l></lt></Parv><Pars><lt><l lcid=\"1033\"></l></lt></Pars><X><lt><l lcid=\"1033\">5</l></lt></X><Y><lt><l lcid=\"1033\">81</l></lt></Y><W><lt><l lcid=\"1033\">131</l></lt></W><H><lt><l lcid=\"1033\">51</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">200310</l></lt></Offset><Offset2><lt><l lcid=\"1033\">200310</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "5, 81, 131, 51",
+      "Offset": 200310,
+      "TemplatedText": "Click on the split button <b>New Email</b>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the split button "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "New Email"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "29e8a56d-1562-4b4c-9f18-4f8547116cfa",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-29e8a56d-1562-4b4c-9f18-4f8547116cfa",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/To/To",
+        "2": "To",
+        "3": "",
+        "v": "",
+        "s": "",
+        "Source": "<Step x=\"341\" y=\"160\" exe=\"OUTLOOK.EXE\" wh=\"132786\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"29e8a56d-1562-4b4c-9f18-4f8547116cfa\" ms=\"429581296\"><Arg1>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/To/To</Arg1><Arg2>Text/editable text</Arg2><Arg3>To</Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/10/9/12/9/2A,1897,155,230,151,1901,197</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_Text/editable text</Par1><Par2>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/To/To</Par2><Par3><lt><l lcid=\"1033\">To</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\"></l></lt></Parv><Pars><lt><l lcid=\"1033\"></l></lt></Pars><X><lt><l lcid=\"1033\">230</l></lt></X><Y><lt><l lcid=\"1033\">151</l></lt></Y><W><lt><l lcid=\"1033\">1671</l></lt></W><H><lt><l lcid=\"1033\">46</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">644532</l></lt></Offset><Offset2><lt><l lcid=\"1033\">644532</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "230, 151, 1671, 46",
+      "Offset": 644532,
+      "TemplatedText": "Click on the input field <b>To</b>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the input field "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "To"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "87454dcf-590c-4b25-a12d-719f7abc8cba",
+      "Cmd": "Keyboard",
+      "ImageFileName": "test-87454dcf-590c-4b25-a12d-719f7abc8cba",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "dib",
+        "2": "To",
+        "Source": "<Step cmd=\"Keyboard\" id=\"87454dcf-590c-4b25-a12d-719f7abc8cba\" ms=\"429597625\"><Arg1>dib</Arg1><Par1>KEYBOARD</Par1><Par2>dib</Par2><X><lt><l lcid=\"1033\">338</l></lt></X><Y><lt><l lcid=\"1033\">153</l></lt></Y><W><lt><l lcid=\"1033\">16</l></lt></W><H><lt><l lcid=\"1033\">16</l></lt></H><Offset><lt><l lcid=\"1033\">645307</l></lt></Offset><Offset2><lt><l lcid=\"1033\">645307</l></lt></Offset2></Step>",
+        "0": "Keyboard"
+      },
+      "Rect": "230, 151, 1671, 46",
+      "Offset": 645307,
+      "TemplatedText": "Enter <font color=\"red\"><b>To</b></font>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Enter "
+        },
+        {
+          "tIdx": 1,
+          "tType": 0,
+          "tObj": {
+            "font": {
+              "@color": "red",
+              "b": "To"
+            }
+          },
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "To"
+        },
+        {
+          "tIdx": 2,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 4,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 5,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "3a7c809f-b7aa-4602-b7e5-f7524a56e44c",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-3a7c809f-b7aa-4602-b7e5-f7524a56e44c",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/To/To",
+        "2": "To",
+        "3": "",
+        "v": "Divya Bhavsar, Presenting; ",
+        "s": "",
+        "Source": "<Step x=\"440\" y=\"163\" exe=\"OUTLOOK.EXE\" wh=\"132786\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"3a7c809f-b7aa-4602-b7e5-f7524a56e44c\" ms=\"429597671\"><Arg1>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/To/To</Arg1><Arg2>Text/editable text</Arg2><Arg3>To</Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/10/9/12/9/2A,1897,155,230,151,1901,197</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_Text/editable text</Par1><Par2>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/To/To</Par2><Par3><lt><l lcid=\"1033\">To</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\">Divya Bhavsar, Presenting; </l></lt></Parv><Pars><lt><l lcid=\"1033\"></l></lt></Pars><X><lt><l lcid=\"1033\">230</l></lt></X><Y><lt><l lcid=\"1033\">151</l></lt></Y><W><lt><l lcid=\"1033\">1671</l></lt></W><H><lt><l lcid=\"1033\">46</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">649753</l></lt></Offset><Offset2><lt><l lcid=\"1033\">649753</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "230, 151, 1671, 46",
+      "Offset": 649753,
+      "TemplatedText": "Click on the input field <b>To</b>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the input field "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "To"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "efe8ffdd-3307-4e95-a2aa-8094715270b2",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-efe8ffdd-3307-4e95-a2aa-8094715270b2",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/Subject/Subject",
+        "2": "Subject",
+        "3": "",
+        "v": "",
+        "s": "Alt+U",
+        "Source": "<Step x=\"244\" y=\"274\" exe=\"OUTLOOK.EXE\" wh=\"197390\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"efe8ffdd-3307-4e95-a2aa-8094715270b2\" ms=\"429601218\"><Arg1>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/Subject/Subject</Arg1><Arg2>Text/editable text</Arg2><Arg3>Subject</Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/10/9/12/9/2A,1897,250,230,246,1901,295</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_Text/editable text</Par1><Par2>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/Subject/Subject</Par2><Par3><lt><l lcid=\"1033\">Subject</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\"></l></lt></Parv><Pars><lt><l lcid=\"1033\">Alt+U</l></lt></Pars><X><lt><l lcid=\"1033\">230</l></lt></X><Y><lt><l lcid=\"1033\">246</l></lt></Y><W><lt><l lcid=\"1033\">1671</l></lt></W><H><lt><l lcid=\"1033\">49</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">733597</l></lt></Offset><Offset2><lt><l lcid=\"1033\">733597</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "230, 246, 1671, 49",
+      "Offset": 733597,
+      "TemplatedText": "Click on the input field <b>Subject</b>.<br/>You may also press <b>Alt+U</b>.",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the input field "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Subject"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 5,
+          "tType": 1,
+          "tObj": null,
+          "tText": "You may also press "
+        },
+        {
+          "tIdx": 6,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 7,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Alt+U"
+        },
+        {
+          "tIdx": 6,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 8,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "f14ca6f1-1b68-45d8-ae1e-a6ddb4b758ee",
+      "Cmd": "Keyboard",
+      "ImageFileName": "test-f14ca6f1-1b68-45d8-ae1e-a6ddb4b758ee",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "test",
+        "2": "Subject",
+        "Source": "<Step id=\"f14ca6f1-1b68-45d8-ae1e-a6ddb4b758ee\" ms=\"429609109\" cmd=\"Keyboard\"><Arg1>test</Arg1><Par1>KEYBOARD</Par1><Par2>test</Par2><X><lt><l lcid=\"1033\">241</l></lt></X><Y><lt><l lcid=\"1033\">251</l></lt></Y><W><lt><l lcid=\"1033\">16</l></lt></W><H><lt><l lcid=\"1033\">16</l></lt></H><Offset><lt><l lcid=\"1033\">777401</l></lt></Offset><Offset2><lt><l lcid=\"1033\">777401</l></lt></Offset2></Step>",
+        "0": "Keyboard"
+      },
+      "Rect": "230, 246, 1671, 49",
+      "Offset": 777401,
+      "TemplatedText": "Enter <font color=\"red\"><b>Subject</b></font>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Enter "
+        },
+        {
+          "tIdx": 1,
+          "tType": 0,
+          "tObj": {
+            "font": {
+              "@color": "red",
+              "b": "Subject"
+            }
+          },
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Subject"
+        },
+        {
+          "tIdx": 2,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 4,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 5,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "99746b13-e0c3-4b25-9942-48d5b23988d6",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-99746b13-e0c3-4b25-9942-48d5b23988d6",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/Subject/Subject",
+        "2": "Subject",
+        "3": "",
+        "v": "test",
+        "s": "Alt+U",
+        "Source": "<Step x=\"309\" y=\"286\" exe=\"OUTLOOK.EXE\" wh=\"197390\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"99746b13-e0c3-4b25-9942-48d5b23988d6\" ms=\"429609140\"><Arg1>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/Subject/Subject</Arg1><Arg2>Text/editable text</Arg2><Arg3>Subject</Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/10/9/12/9/2A,1897,250,230,246,1901,295</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_Text/editable text</Par1><Par2>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/Subject/Subject</Par2><Par3><lt><l lcid=\"1033\">Subject</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\">test</l></lt></Parv><Pars><lt><l lcid=\"1033\">Alt+U</l></lt></Pars><X><lt><l lcid=\"1033\">230</l></lt></X><Y><lt><l lcid=\"1033\">246</l></lt></Y><W><lt><l lcid=\"1033\">1671</l></lt></W><H><lt><l lcid=\"1033\">49</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">778354</l></lt></Offset><Offset2><lt><l lcid=\"1033\">778354</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "230, 246, 1671, 49",
+      "Offset": 778354,
+      "TemplatedText": "Click on the input field <b>Subject</b>.<br/>You may also press <b>Alt+U</b>.",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the input field "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Subject"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 5,
+          "tType": 1,
+          "tObj": null,
+          "tText": "You may also press "
+        },
+        {
+          "tIdx": 6,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 7,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Alt+U"
+        },
+        {
+          "tIdx": 6,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 8,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "7b48ab2f-e311-4175-b546-254b8d2d2d6f",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-7b48ab2f-e311-4175-b546-254b8d2d2d6f",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/r9/rA/r9/rA/Message/rA",
+        "2": "",
+        "3": "",
+        "v": "",
+        "s": "",
+        "Source": "<Step x=\"229\" y=\"319\" exe=\"OUTLOOK.EXE\" wh=\"133142\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"7b48ab2f-e311-4175-b546-254b8d2d2d6f\" ms=\"429613171\"><Arg1>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/r9/rA/r9/rA/Message/rA</Arg1><Arg2>Client/client</Arg2><Arg3></Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/10/9/12/9/A/9/A/9/A,1895,301,0,297,1899,1009</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_Client/client</Par1><Par2>/Desktop 1/rA/*MAILMSG/rA/r9/rA/Form Regions/*pa/r9/r12/r9/rA/r9/rA/Message/rA</Par2><Par3><lt><l lcid=\"1033\"></l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\"></l></lt></Parv><Pars><lt><l lcid=\"1033\"></l></lt></Pars><X><lt><l lcid=\"1033\">0</l></lt></X><Y><lt><l lcid=\"1033\">297</l></lt></Y><W><lt><l lcid=\"1033\">1899</l></lt></W><H><lt><l lcid=\"1033\">712</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">778354</l></lt></Offset><Offset2><lt><l lcid=\"1033\">778354</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "0, 297, 1899, 712",
+      "Offset": 778354,
+      "TemplatedText": "Click on <b></b>.<br/>",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 3,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "2c4ff9c7-3f8b-4fac-8271-5c40e1221829",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-2c4ff9c7-3f8b-4fac-8271-5c40e1221829",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/*MAILMSG/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/r0",
+        "2": "",
+        "3": "",
+        "v": "",
+        "s": "",
+        "Source": "<Step x=\"1885\" y=\"13\" exe=\"OUTLOOK.EXE\" wh=\"132782\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"2c4ff9c7-3f8b-4fac-8271-5c40e1221829\" ms=\"429621609\"><Arg1>/Desktop 1/rA/*MAILMSG/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/r0</Arg1><Arg2>/unknown object</Arg2><Arg3></Arg3><Arg4></Arg4><Arg5>/9/A/9/A/9/A/9/16/9/A/9/A/9/26/0,1916,17,1885,13,1920,81</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_/unknown object</Par1><Par2>/Desktop 1/rA/*MAILMSG/rA/*36/rA/r9/r16/Ribbon/rA/r9/rA/Ribbon/Ribbon/r0</Par2><Par3><lt><l lcid=\"1033\"></l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\"></l></lt></Parv><Pars><lt><l lcid=\"1033\"></l></lt></Pars><X><lt><l lcid=\"1033\">1885</l></lt></X><Y><lt><l lcid=\"1033\">13</l></lt></Y><W><lt><l lcid=\"1033\">35</l></lt></W><H><lt><l lcid=\"1033\">68</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"-9\" y=\"-9\" w=\"1938\" h=\"1048\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"0\" y=\"0\" w=\"1920\" h=\"1030\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">799211</l></lt></Offset><Offset2><lt><l lcid=\"1033\">799211</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "1885, 13, 35, 68",
+      "Offset": 799211,
+      "TemplatedText": "",
+      "DictionaryText": [],
+      "FlowTags": "",
+      "Steps": null
+    },
+    {
+      "Id": "6c2617d9-c2de-4100-b3da-35a87b160f4b",
+      "Cmd": "WinUIA2",
+      "ImageFileName": "test-6c2617d9-c2de-4100-b3da-35a87b160f4b",
+      "AssistPreviewImage": null,
+      "FrameFileNames": null,
+      "Pars": {
+        "1": "/Desktop 1/rA/Microsoft Outlook/Microsoft Outlook/No/No",
+        "2": "No",
+        "3": "",
+        "v": "",
+        "s": "Alt+N",
+        "Source": "<Step x=\"974\" y=\"591\" exe=\"OUTLOOK.EXE\" wh=\"398302\" cmd=\"WinUIA2\" mouse=\"Left\" id=\"6c2617d9-c2de-4100-b3da-35a87b160f4b\" ms=\"429626765\"><Arg1>/Desktop 1/rA/Microsoft Outlook/Microsoft Outlook/No/No</Arg1><Arg2>PushButton/push button</Arg2><Arg3>No</Arg3><Arg4></Arg4><Arg5>/9/A/9/12/9/2B,1003,586,932,582,1007,612</Arg5><Arg6>OUTLOOK.EXE</Arg6><Par1>WINUIA%_PushButton/push button</Par1><Par2>/Desktop 1/rA/Microsoft Outlook/Microsoft Outlook/No/No</Par2><Par3><lt><l lcid=\"1033\">No</l></lt></Par3><Par4><lt><l lcid=\"1033\"></l></lt></Par4><Parv><lt><l lcid=\"1033\"></l></lt></Parv><Pars><lt><l lcid=\"1033\">Alt+N</l></lt></Pars><X><lt><l lcid=\"1033\">932</l></lt></X><Y><lt><l lcid=\"1033\">582</l></lt></Y><W><lt><l lcid=\"1033\">75</l></lt></W><H><lt><l lcid=\"1033\">30</l></lt></H><ParBookmarkWindow><lt><l lcid=\"1033\" x=\"788\" y=\"476\" w=\"365\" h=\"153\" /></lt></ParBookmarkWindow><ParBookmarkWindowClient><lt><l lcid=\"1033\" x=\"797\" y=\"514\" w=\"347\" h=\"106\" /></lt></ParBookmarkWindowClient><Offset><lt><l lcid=\"1033\">839868</l></lt></Offset><Offset2><lt><l lcid=\"1033\">839868</l></lt></Offset2></Step>",
+        "0": "WinUIA2"
+      },
+      "Rect": "932, 582, 75, 30",
+      "Offset": 839868,
+      "TemplatedText": "Click on the button <b>No</b>.<br/>You may also press <b>Alt+N</b>.",
+      "DictionaryText": [
+        {
+          "tIdx": 0,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Click on the button "
+        },
+        {
+          "tIdx": 1,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 2,
+          "tType": 1,
+          "tObj": null,
+          "tText": "No"
+        },
+        {
+          "tIdx": 1,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 3,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        },
+        {
+          "tIdx": 4,
+          "tType": 4,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 5,
+          "tType": 1,
+          "tObj": null,
+          "tText": "You may also press "
+        },
+        {
+          "tIdx": 6,
+          "tType": 2,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 7,
+          "tType": 1,
+          "tObj": null,
+          "tText": "Alt+N"
+        },
+        {
+          "tIdx": 6,
+          "tType": 5,
+          "tObj": null,
+          "tText": null
+        },
+        {
+          "tIdx": 8,
+          "tType": 1,
+          "tObj": null,
+          "tText": "."
+        }
+      ],
+      "FlowTags": "",
+      "Steps": null
+    }
+  ],
+  "MetaData": {},
+  "ObjectIDs": [
+    "JSV",
+    "PDF",
+    "DOCX",
+    "PPTX"
+  ],
+  "ChapterStart": null,
+  "LCID": 1033,
+  "RootLCID": 1033,
+  "LCIDList": null,
+  "WordIndexStr": "",
+  "IconList": {},
+  "IconRef": {},
+  "Copyright": "ClickLearn ApS",
+  "Chapters": null,
+  "VideoWidth": 1024,
+  "VideoHeight": 576,
+  "VideoArguments": "",
+  "ImageExtension": "jpg",
+  "InsideHelpType": null,
+  "References": null,
+  "PublishSettings": [
+    {
+      "tag": "recording-fontfamily",
+      "value": "Palatino Linotype"
+    },
+    {
+      "tag": "recording-h1",
+      "value": "30"
+    },
+    {
+      "tag": "recording-h2",
+      "value": "25"
+    },
+    {
+      "tag": "recording-h3",
+      "value": "20"
+    },
+    {
+      "tag": "recording-h4",
+      "value": "15"
+    },
+    {
+      "tag": "recording-h5",
+      "value": "10"
+    },
+    {
+      "tag": "recording-h6",
+      "value": "5"
+    },
+    {
+      "tag": "recording-paragraphsize",
+      "value": "30,15"
+    },
+    {
+      "tag": "recording-paragraphcolor",
+      "value": "green"
+    },
+    {
+      "tag": "recording-produceshowme",
+      "value": null
+    },
+    {
+      "tag": "recording-producetryme",
+      "value": null
+    },
+    {
+      "tag": "recording-producetestme",
+      "value": null
+    }
+  ],
+  "tColorHtml": "#4D98CE"
+};
